@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validation Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<form>
+		<h1>Create Account</h1>
+		<div>
+			<label for="ime_prezime">Full Name:</label>
+			<input id="ime_prezime" type="text" name="ime_prezime" placeholder="Bole Bolevski">
+		</div>
+		<div>
+			<label for="korisnicko_ime">Username:</label>
+			<input id="korisnicko_ime" type="text" name="korisnicko_ime" placeholder="bole.bolevski">
+		</div>
+		<div>
+			<label for="email">Email adress:</label>
+			<input id="email" type="text" name="email" placeholder="bole.bolevic@mail.com">
+		</div>
+		<div>
+			<label for="lozinka">Password:</label>
+			<input id="lozinka" type="text" name="lozinka" placeholder="*******">
+		</div>
+		<div>
+			<label for="ponovi_lozinku">Confirm Password:</label>
+			<input id="ponovi_lozinku" type="text" name="ponovi_lozinku" placeholder="*******">
+		</div>
+		<div class="check-mark">
+			<p class="check-mark-color">&#9745; <span class="agree">Agree with</span> <span>Term & Conditions</span></p>
+		</div>
+		<div>
+			<button>Register now</button>
+			<div class="button-text">
+				<h5>Already have an account?<span>Log In</span>
+			</div>
+		</div>
+	</form>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
